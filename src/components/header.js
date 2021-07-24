@@ -56,7 +56,7 @@ const Header = ({ menus }) => {
     return (
         <header className="header container">
             <Link to="/">
-                <img src={ require('assets/images/logo.png') } width="30" />
+                <img src={ require('assets/images/logo.png') } width="60" />
             </Link>
             {
                 (mainMenu !== null && mainMenu !== undefined) &&
